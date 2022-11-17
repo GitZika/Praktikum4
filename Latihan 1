@@ -1,0 +1,24 @@
+warna = ['merah','biru','kuning','hijau','jingga']
+
+print(warna[2])
+print(warna[1:4])
+print(warna[4])
+
+warna[3] = 'ungu'
+print(warna[3])
+
+warna[3:4] = 'hitam','putih'
+print(warna[3],warna[4])
+
+warna1 = [warna[0],warna[1]]
+print(warna1)
+
+warna1.append('coklat')
+print(warna1)
+
+warna1.extend(['abu','crem','pink'])
+print (warna1)
+
+warna3 = warna1 + warna1
+
+print(warna3)
